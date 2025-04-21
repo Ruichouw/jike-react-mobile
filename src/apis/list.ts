@@ -8,7 +8,7 @@ type ChannelData = {
   channels: ChannelItem[];
   [property: string]: any;
 };
-type ChannelItem = {
+export type ChannelItem = {
   /**
    * 频道id
    */
